@@ -20,6 +20,33 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+}
+
+.modal-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title,
+.buttons {
+  display: flex;
+}
+
+.title {
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 16px;
 }
 
 .icon {
@@ -50,6 +77,10 @@ body {
   padding: 0;
 }
 
+.buttons {
+  display: flex;
+  gap: 6px;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
